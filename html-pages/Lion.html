@@ -1,0 +1,100 @@
+---
+layout: default
+---
+    
+<!--Project page Main start-->   
+
+<main>
+  <div class="page-projects">
+
+    <!-- Project description -->
+    <div class="project-description">
+      <h3>Lion's Face</h3>
+      <p>April 2019</p>
+      <p>Opera by Elena Langer</p>
+      <p>Director: Morten K. Roesen</p>
+      <span id="span-read"></span>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
+      <div id="more">
+        <p>Conductor: Yury Ilinov / Set and costumes: Asya Stoimenova / Choreographer: Carlos Rod Santos</p> 
+        <p>Singers and ballet: Ignat Jelev, Lili Hodjeva, Neli Necheva, Inna Andreeva, Teodor Petkov & ballet and staff of Stara Zagora State Opera.</p>
+      </div>
+    </div>
+        
+    <div class="slideshow-container">
+
+      <!-- Images for slideshow -->
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03174ff.jpg" class="slides-img" alt="img">
+      </div>
+              
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03240ff.jpg" class="slides-img" alt="img">
+      </div>
+              
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03343f.jpg" class="slides-img" alt="img">
+      </div>
+        
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03348ff.jpg" class="slides-img" alt="img">
+      </div>
+
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03368ff.jpg" class="slides-img" alt="img">
+      </div>
+              
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03481f.jpg" class="slides-img" alt="img">
+      </div>
+              
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03732f.jpg" class="slides-img" alt="img">
+      </div>
+        
+      <div class="slides fade">
+        <img src="/img/Lion's_face/DSC03738 (2)f.jpg" class="slides-img" alt="img">
+      </div>
+              
+      <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles -->
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>      
+    </div>
+    <br>
+    
+    <!--prev, back to and next-->
+    <div class="back-to">
+      <div class="prev-back-to">
+          <a href="/html-pages/Traiano in Tracia.html">prev</a>
+      </div>
+      <div class="middle-back-to-main">
+          <a href="/html-pages/index.html">• back to Main</a>
+      </div>
+      <div class="middle-back-to-projects">
+          <a href="/html-pages/projects.html">•••back to Projects •</a>
+      </div>
+      <div class="next-back-to">
+          <a href="/html-pages/H&Z.html">next</a>
+      </div>
+  </div>
+  </div>
+</main>
+
+<!--Project page Main end-->   
+
+{% include carousel.js %}
+
+{% include read-button.js %}
+
