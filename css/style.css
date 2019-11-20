@@ -55,6 +55,7 @@ margin-bottom: 1rem;
 
 .nav-links:hover {
   font-size: 1.3rem;
+  opacity: 0.2;
 }
 
 
